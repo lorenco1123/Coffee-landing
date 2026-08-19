@@ -1,0 +1,215 @@
+@media (max-width: 768px) {
+
+    /* nav */
+    .coffee-nav {
+        justify-content: center;
+        padding: 0 20px;
+        height: 65px;
+        align-items: center;
+        position: fixed;
+        top: -10;
+        z-index: 10;
+    }
+
+    .logo img {
+        bottom: 0;
+        left: 0;
+        height: 45px;
+        width: 45px;
+        margin: 0;
+    }
+
+    .logo h1 {
+        font-size: 1.4em;
+        top: 11px;
+    }
+
+    .burger {
+        display: flex;
+    }
+
+    .main-navigation {
+        position: fixed;
+        top: 65px;
+        left: 0;
+        width: 100%;
+        background-color: #f4efe3;
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+        padding: 0;
+        max-height: 0;
+        overflow: hidden;
+        opacity: 0;
+        visibility: hidden;
+        transition: max-height 0.4s ease, padding 0.3s ease, opacity 0.3s ease, visibility 0.3s;
+        box-shadow: 0 4px 12px rgba(184, 153, 128, 0.15);
+        z-index: 9;
+    }
+
+    .main-navigation.open {
+        max-height: 400px;
+        padding: 16px 0;
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .main-navigation li {
+        width: 100%;
+        text-align: center;
+    }
+
+    .navigation {
+        font-size: 1.2em;
+        padding: 0.8em 0;
+        display: block;
+        width: 100%;
+    }
+
+    .order-button {
+        display: none;
+    }
+
+    /* hero */
+    .hero-section {
+        min-height: 100svh;
+        height: auto;
+        padding-top: 65px;
+        box-sizing: border-box;
+    }
+
+    .hero-section::before {
+        transform: scale(1);
+    }
+
+    .header-h2 {
+        font-size: 1.6em;
+        text-align: center;
+    }
+
+    .header-span {
+        font-size: 3em;
+        text-align: center;
+    }
+
+    .header-text {
+        font-size: 1.1em;
+        width: 85%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .header-btns {
+        flex-direction: column;
+        gap: 1em;
+        align-items: center;
+    }
+
+    .header-btn {
+        width: 80vw;
+        text-align: center;
+    }
+
+    /* about */
+    .About-journey {
+        margin: 60px auto;
+        padding: 0 20px;
+    }
+
+    .journey-header {
+        font-size: 2.2em;
+        width: 100%;
+    }
+
+    .journey-box hr {
+        left: 0;
+        width: 40%;
+        margin: 15px auto;
+        position: static;
+    }
+
+    .journey-text {
+        width: 100%;
+        font-size: 16px;
+        letter-spacing: 1px;
+    }
+
+    /* menu */
+    .menu-box {
+        padding: 60px 20px;
+    }
+
+    .cards {
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5em;
+    }
+
+    .card {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    /* gallery */
+    .Gallery {
+        padding: 60px 20px;
+    }
+
+    .gallery-text-box {
+        max-width: 100%;
+    }
+
+    .gallery-imgs {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        max-width: 100%;
+    }
+
+    .gallery-imgs .images:nth-child(1) {
+        grid-row: auto;
+        grid-column: auto;
+        height: 260px;
+    }
+
+    .gallery-imgs .images:nth-child(2),
+    .gallery-imgs .images:nth-child(3) {
+        grid-row: auto;
+        grid-column: auto;
+        height: 200px;
+    }
+
+    /* contacts */
+    .form-box {
+        flex-direction: column;
+        padding: 60px 20px;
+        gap: 3em;
+    }
+
+    .form-left {
+        max-width: 100%;
+    }
+
+    .form-text {
+        width: 100%;
+    }
+
+    .form-right {
+        max-width: 100%;
+    }
+
+    /* footer */
+    .coffee-footer {
+        flex-direction: column;
+        text-align: center;
+        gap: 1em;
+        padding: 30px 20px;
+    }
+
+    .some-links {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0.5em 1em;
+        max-width: 100%;
+    }
+}

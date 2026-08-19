@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="loading.css">
+    <link rel="stylesheet" href="Mobile.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Borel&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <title>Brew & Co</title>
+</head>
+<body>
+    <!-- loading -->
+    <img src="./imgs/hot-drink.png" alt="coffee logo" class="coffee-logo">
+    <div class="loader-circle"></div>
+  
+    
+    <div class="dl-preview-page">
+        <div class="doodle-loader">
+          <svg
+            class="dl-doodle dl-d1"
+            aria-hidden="true"
+            viewBox="0 0 48 48"
+            fill="none"
+          >
+            <path
+              d="M24 4 L27 21 L44 24 L27 27 L24 44 L21 27 L4 24 L21 21 Z"
+              stroke="#2D2826"
+              stroke-width="2"
+              stroke-linejoin="round"
+              fill="#F0E8FF"
+            ></path>
+            <circle cx="24" cy="24" r="3.5" fill="#7B5EA7"></circle>
+          </svg>
+          <svg
+            class="dl-doodle dl-d2"
+            aria-hidden="true"
+            viewBox="0 0 38 38"
+            fill="none"
+          >
+            <line
+              x1="19"
+              y1="3"
+              x2="19"
+              y2="35"
+              stroke="#C85A28"
+              stroke-width="2.5"
+              stroke-linecap="round"
+            ></line>
+            <line
+              x1="3"
+              y1="13"
+              x2="35"
+              y2="25"
+              stroke="#C85A28"
+              stroke-width="2.5"
+              stroke-linecap="round"
+            ></line>
+            <line
+              x1="35"
+              y1="13"
+              x2="3"
+              y2="25"
+              stroke="#C85A28"
+              stroke-width="2.5"
+              stroke-linecap="round"
+            ></line>
+          </svg>
+          <svg
+            class="dl-doodle dl-d3"
+            aria-hidden="true"
+            viewBox="0 0 34 52"
+            fill="none"
+          >
+            <path
+              d="M22 2 L8 26 L17 26 L12 50 L28 22 L18 22 Z"
+              stroke="#2D2826"
+              stroke-width="2"
+              stroke-linejoin="round"
+              fill="#FFF3CD"
+            ></path>
+          </svg>
+          <svg
+            class="dl-doodle dl-d4"
+            aria-hidden="true"
+            viewBox="0 0 44 40"
+            fill="none"
+          >
+            <path
+              d="M22 36 C22 36, 2 22, 2 12 C2 6, 8 2, 14 4 C18 6, 22 10, 22 12 C22 10, 26 6, 30 4 C36 2, 42 6, 42 12 C42 22, 22 36, 22 36 Z"
+              stroke="#2D2826"
+              stroke-width="2"
+              stroke-linejoin="round"
+              fill="#FFE0E6"
+            ></path>
+          </svg>
+          <svg
+            class="dl-doodle dl-d5"
+            aria-hidden="true"
+            viewBox="0 0 54 54"
+            fill="none"
+          >
+            <path
+              d="M27 27 C27 19, 37 15, 41 23 C45 31, 37 41, 25 39 C13 37, 9 23, 17 15 C25 7, 43 9, 47 23"
+              stroke="#3D7A52"
+              stroke-width="2.2"
+              stroke-linecap="round"
+              fill="none"
+            ></path>
+            <circle cx="27" cy="27" r="3" fill="#3D7A52"></circle>
+          </svg>
+          <svg
+            class="dl-doodle dl-d6"
+            aria-hidden="true"
+            viewBox="0 0 90 24"
+            fill="none"
+          >
+            <path
+              d="M2 12 C10 2,18 22,26 12 C34 2,42 22,50 12 C58 2,66 22,74 12 C82 2,88 16,90 12"
+              stroke="#2D2826"
+              stroke-width="2.5"
+              stroke-linecap="round"
+              fill="none"
+            ></path>
+          </svg>
+      
+          <div class="dl-card">
+            <div class="dl-tape" aria-hidden="true"></div>
+            <svg class="dl-pencil" aria-hidden="true" viewBox="0 0 30 36" fill="none">
+              <rect
+                x="8"
+                y="2"
+                width="14"
+                height="24"
+                rx="2"
+                fill="#FFD966"
+                stroke="#2D2826"
+                stroke-width="1.5"
+              ></rect>
+              <polygon
+                points="8,26 22,26 15,35"
+                fill="#F0A060"
+                stroke="#2D2826"
+                stroke-width="1.5"
+                stroke-linejoin="round"
+              ></polygon>
+              <line
+                x1="15"
+                y1="31"
+                x2="15"
+                y2="36"
+                stroke="#2D2826"
+                stroke-width="1.5"
+                stroke-linecap="round"
+              ></line>
+              <rect
+                x="8"
+                y="2"
+                width="14"
+                height="6"
+                rx="1"
+                fill="#FF8888"
+                stroke="#2D2826"
+                stroke-width="1.5"
+              ></rect>
+              <line
+                x1="8"
+                y1="8"
+                x2="22"
+                y2="8"
+                stroke="#2D2826"
+                stroke-width="1.5"
+              ></line>
+            </svg>
+            <svg
+              class="dl-corner dl-c-tl"
+              aria-hidden="true"
+              viewBox="0 0 22 22"
+              fill="none"
+            >
+              <path
+                d="M3 19 C3 11,11 3,19 3"
+                stroke="#A89880"
+                stroke-width="1.5"
+                stroke-linecap="round"
+              ></path>
+              <circle cx="3" cy="19" r="2" fill="#A89880" opacity="0.45"></circle>
+            </svg>
+            <svg
+              class="dl-corner dl-c-tr"
+              aria-hidden="true"
+              viewBox="0 0 22 22"
+              fill="none"
+            >
+              <path
+                d="M3 19 C3 11,11 3,19 3"
+                stroke="#A89880"
+                stroke-width="1.5"
+                stroke-linecap="round"
+              ></path>
+              <circle cx="3" cy="19" r="2" fill="#A89880" opacity="0.45"></circle>
+            </svg>
+            <svg
+              class="dl-corner dl-c-bl"
+              aria-hidden="true"
+              viewBox="0 0 22 22"
+              fill="none"
+            >
+              <path
+                d="M3 19 C3 11,11 3,19 3"
+                stroke="#A89880"
+                stroke-width="1.5"
+                stroke-linecap="round"
+              ></path>
+              <circle cx="3" cy="19" r="2" fill="#A89880" opacity="0.45"></circle>
+            </svg>
+            <svg
+              class="dl-corner dl-c-br"
+              aria-hidden="true"
+              viewBox="0 0 22 22"
+              fill="none"
+            >
+              <path
+                d="M3 19 C3 11,11 3,19 3"
+                stroke="#A89880"
+                stroke-width="1.5"
+                stroke-linecap="round"
+              ></path>
+              <circle cx="3" cy="19" r="2" fill="#A89880" opacity="0.45"></circle>
+            </svg>
+      
+            <div class="dl-row">
+              <span class="dl-prefix">loading</span>
+              <div class="dl-words" aria-live="polite" aria-label="loading content">
+                <span class="dl-word">menu</span>
+                <span class="dl-word">food</span>
+                <span class="dl-word">switches</span>
+                <span class="dl-word">cards</span>
+                <span class="dl-word">menu</span>
+              </div>
+            </div>
+            <p class="dl-sub">Please wait a moment...</p>
+            <div class="dl-track" role="progressbar" aria-label="Loading progress">
+              <div class="dl-fill"></div>
+            </div>
+            <div class="dl-dots" role="img" aria-label="Loading">
+              <span class="dl-dot" tabindex="0"></span>
+              <span class="dl-dot" tabindex="0"></span>
+              <span class="dl-dot" tabindex="0"></span>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <!-- nav bar -->
+    <div class="Main-Box">
+      <nav class="coffee-nav">
+        <div class="logo">
+          <img src="./imgs/hot-drink.png" alt="">
+          <a href="#"><h1>Brew & Co</h1></a>
+        </div>
+
+        <ul class="main-navigation">
+          <li><a href="#Menu"><button class="navigation">Menu</button></a></li>
+          <li><a href="#OurStory"><button class="navigation">About</button></a></li>
+          <li><a href="#Gallery"><button class="navigation">Gallery</button></a></li>
+          <li><a href="#Contacts"><button class="navigation">Contacts</button></a></li>
+        </ul>
+        <button class="order-button">Order Now</button>
+      </nav>
+      
+      <!-- hero section -->
+      <header class="hero-section">
+        <div class="hero-text-wrapper">
+          <h2 class="header-h2">Crafted for Your</h2>
+          <span class="header-span">Morning Ritual</span>
+        </div>
+        <p class="header-text">Sun-baked simplicity in every cup. We source, roast and 
+          brew with a dedication to warmth, craft and community.</p>
+        <div class="header-btns">
+          <a href="#Menu" class="links"><button class="header-btn">Explore Our Menu</button></a>
+          <a href="#OurStory" class="links"><button class="header-btn" id="header-second-btn">Our Story</button></a>
+        </div>
+      </header>
+
+      <!-- "About" section -->
+      <section class="About-journey" id="OurStory">
+        <div class="journey-box">
+          <span class="journey-span">The Journey</span>
+          <h3 class="journey-header">Rooted in Tradition,
+            Brewed for Today.</h3>
+          <hr>
+        </div>
+
+        <p class="journey-text">Brew & Co was founded on a simple principle: coffee should be 
+          a moment of pause. We believe in the luxury of slow mornings, 
+          the warmth of a perfectly extracted espresso 
+          and the quiet beauty of a sunlit space.</p>
+
+        <p class="journey-text" id="second-journey-text">Every bean we roast carries the warmth of its origin, 
+          carefully nurtured to bring out complex, earthy and sun-baked 
+          flavor profiles that comfort and inspire.</p>
+      </section>
+
+      <!-- menu section -->
+
+      <section class="menu-box" id="Menu">
+
+        <div class="menu-header">
+          <span class="menu-top-text">Today's Brews</span>
+          <p class="menu-paragraph">Curated selections to elevate your daily ritual.</p>
+        </div>
+        
+
+        <div class="cards">
+          <div class="card">
+            <div class="card-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#9c8572" height="24px" width="24px" version="1.1" id="Layer_1" viewBox="0 0 512 512" xml:space="preserve">
+                <g>
+                  <g>
+                    <circle cx="81.455" cy="69.818" r="11.636"/>
+                  </g>
+                </g>
+                <g>
+                  <g>
+                    <circle cx="128" cy="69.818" r="11.636"/>
+                  </g>
+                </g>
+                <g>
+                  <g>
+                    <path d="M453.818,0H58.182C38.4,0,23.273,15.127,23.273,34.909v69.818c0,19.782,15.127,34.909,34.909,34.909v23.273    c-19.782,0-34.909,15.127-34.909,34.909c0,19.782,15.127,34.909,34.909,34.909h46.545c15.127,0,27.927-9.309,32.582-23.273h68.655    l3.491,13.964c1.164,4.655,5.818,9.309,11.636,9.309h69.818c5.818,0,10.473-3.491,11.636-9.309l9.309-39.564    c15.127-4.655,25.6-17.455,25.6-33.745v-23.273c0-6.982-4.655-11.636-11.636-11.636H58.182c-6.982,0-11.636-4.655-11.636-11.636    V34.909c0-6.982,4.655-11.636,11.636-11.636h395.636c6.982,0,11.636,4.655,11.636,11.636v69.818    c0,6.982-4.655,11.636-11.636,11.636h-81.455c-6.982,0-11.636,4.655-11.636,11.636s4.655,11.636,11.636,11.636h58.182V384    c0,6.982,4.655,11.636,11.636,11.636s11.636-4.655,11.636-11.636V139.636c19.782,0,34.909-15.127,34.909-34.909V34.909    C488.727,15.127,473.6,0,453.818,0z M281.6,209.455h-51.2l-5.818-23.273h62.836L281.6,209.455z M197.818,139.636h116.364v11.636    c0,6.982-4.655,11.636-11.636,11.636h-93.091c-6.982,0-11.636-4.655-11.636-11.636V139.636z M93.091,162.909H81.455v-23.273    h93.091v11.636c0,16.291,10.473,29.091,25.6,33.745v1.164H128c-6.982,0-11.636,4.655-11.636,11.636s-4.655,11.636-11.636,11.636    H58.182c-6.982,0-11.636-4.655-11.636-11.636s4.655-11.636,11.636-11.636h34.909c6.982,0,11.636-4.655,11.636-11.636    S100.073,162.909,93.091,162.909z"/>
+                  </g>
+                </g>
+                <g>
+                  <g>
+                    <path d="M453.818,418.909H335.127c1.164-3.491,2.327-6.982,2.327-11.636v-34.909h11.636c19.782,0,34.909-15.127,34.909-34.909    v-46.545C384,271.127,368.873,256,349.091,256h-23.273c-6.982,0-11.636,4.655-11.636,11.636v46.545    c0,6.982,4.655,11.636,11.636,11.636s11.636-4.655,11.636-11.636v-34.909h11.636c6.982,0,11.636,4.655,11.636,11.636v46.545    c0,6.982-4.655,11.636-11.636,11.636h-23.273c-6.982,0-11.636,4.655-11.636,11.636v46.545c0,6.982-4.655,11.636-11.636,11.636    h-93.091c-6.982,0-11.636-4.655-11.636-11.636v-128h81.455c6.982,0,11.636-4.655,11.636-11.636S286.255,256,279.273,256h-93.091    c-6.982,0-11.636,4.655-11.636,11.636v139.636c0,4.655,1.164,8.145,2.327,11.636h-60.509c-6.982,0-11.636,4.655-11.636,11.636    s4.655,11.636,11.636,11.636h93.091h93.091h151.273c6.982,0,11.636,4.655,11.636,11.636v23.273    c0,6.982-4.655,11.636-11.636,11.636H58.182c-6.982,0-11.636-4.655-11.636-11.636v-23.273c0-6.982,4.655-11.636,11.636-11.636    h11.636c6.982,0,11.636-4.655,11.636-11.636V267.636c0-6.982-4.655-11.636-11.636-11.636s-11.636,4.655-11.636,11.636v151.273    c-19.782,0-34.909,15.127-34.909,34.909v23.273C23.273,496.873,38.4,512,58.182,512h395.636c19.782,0,34.909-15.127,34.909-34.909    v-23.273C488.727,434.036,473.6,418.909,453.818,418.909z"/>
+                  </g>
+                </g>
+                <g>
+                  <g>
+                    <path d="M384,58.182h-69.818c-6.982,0-11.636,4.655-11.636,11.636s4.655,11.636,11.636,11.636H384    c6.982,0,11.636-4.655,11.636-11.636S390.982,58.182,384,58.182z"/>
+                  </g>
+                </g>
+                </svg>
+            </div>
+            <div class="card-row">
+              <h4 class="card-title">Signature Espresso</h4>
+              <span class="card-price">$4.50</span>
+            </div>
+            <p class="card-desc">A dense, syrupy shot pulling notes of dark chocolate, toasted hazelnut, and dried fig. Our foundational roast.</p>
+          </div>
+      
+          <div class="card">
+            <div class="card-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="#9c8572" width="24px" height="24px" viewBox="0 0 24 24"><path d="M20,9H2a1,1,0,0,0-1,1v4a9,9,0,0,0,17.941,1H20a3,3,0,0,0,0-6ZM10,21a7.008,7.008,0,0,1-7-7V11H17v3A7.008,7.008,0,0,1,10,21Zm9-8V11c.306.069,2-.366,2,1C21,13.322,19.254,12.943,19,13ZM3.293,6.293l1.25-1.25a2.42,2.42,0,0,1-.6-1.543,2.049,2.049,0,0,1,.6-1.457l.75-.75A1,1,0,0,1,6.707,2.707l-.75.75A2.42,2.42,0,0,1,6.561,5a2.049,2.049,0,0,1-.6,1.457l-1.25,1.25A1,1,0,0,1,3.293,6.293Zm5,0,1.25-1.25a2.42,2.42,0,0,1-.6-1.543,2.049,2.049,0,0,1,.6-1.457l.75-.75a1,1,0,0,1,1.414,1.414l-.75.75A2.42,2.42,0,0,1,11.561,5a2.049,2.049,0,0,1-.6,1.457l-1.25,1.25A1,1,0,0,1,8.293,6.293Zm5,0,1.25-1.25a2.42,2.42,0,0,1-.6-1.543,2.049,2.049,0,0,1,.6-1.457l.75-.75a1,1,0,0,1,1.414,1.414l-.75.75A2.42,2.42,0,0,1,16.561,5a2.049,2.049,0,0,1-.6,1.457l-1.25,1.25a1,1,0,0,1-1.414-1.414Z"/>
+              </svg>
+          </div>
+            <div class="card-row">
+              <h4 class="card-title">Velvet Latte</h4>
+              <span class="card-price">$5.50</span>
+            </div>
+            <p class="card-desc">Immaculately textured microfoam poured over our signature espresso. Smooth, rich, and comforting.</p>
+          </div>
+      
+          <div class="card">
+            <div class="card-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#9c8572" height="34px" width="34px" version="1.1" id="Layer_1" viewBox="0 0 512 512" xml:space="preserve">
+                <g>
+                  <g>
+                    <path d="M367.165,171.023h-5.16c3.04-8.349,4.625-17.218,4.625-26.188c0-26.603-13.67-50.063-34.347-63.755    c0.093-1.55,0.142-3.104,0.142-4.654C332.426,34.285,298.141,0,256,0s-76.426,34.285-76.426,76.426    c0,1.55,0.049,3.104,0.142,4.654c-20.677,13.693-34.347,37.153-34.347,63.755c0,8.955,1.58,17.836,4.619,26.188h-5.153    c-4.427,0-8.017,3.589-8.017,8.017s3.589,8.017,8.017,8.017h9.927l14.619,131.575c1.416,12.739,12.149,22.345,24.966,22.345h3.091    l14.841,148.403c1.289,12.895,12.034,22.62,24.994,22.62h37.454c12.96,0,23.705-9.725,24.995-22.62l14.841-148.403h3.091    c12.817,0,23.55-9.606,24.965-22.345l14.619-131.575h9.927c4.427,0,8.017-3.589,8.017-8.017S371.592,171.023,367.165,171.023z     M256,16.033c32.149,0,58.505,25.254,60.289,56.965c-8.144-2.966-16.927-4.589-26.084-4.589c-12.276,0-23.877,2.927-34.166,8.093    c-10.578-5.303-22.323-8.093-34.243-8.093c-9.157,0-17.94,1.623-26.084,4.589C197.495,41.287,223.851,16.033,256,16.033z     M169.954,113.899c10.559-17.628,29.841-29.457,51.841-29.457c6.216,0,12.368,0.964,18.235,2.817    c-5.897,5.146-11.011,11.165-15.108,17.877c-3.555-1.868-7.545-2.879-11.679-2.879c-13.851,0-25.119,11.268-25.119,25.119    c0,5.01-4.076,9.086-9.086,9.086s-9.086-4.076-9.086-9.086V113.899z M167.365,171.023c-3.848-7.999-5.895-16.832-5.956-25.775    c4.539,4.478,10.766,7.248,17.63,7.248c13.851,0,25.119-11.268,25.119-25.119c0-5.01,4.076-9.086,9.086-9.086    c1.726,0,3.384,0.488,4.811,1.381c-2.759,7.885-4.277,16.348-4.277,25.163c0,8.955,1.58,17.836,4.619,26.188H167.365z     M326.683,316.862c-0.512,4.608-4.394,8.082-9.03,8.082h-27.451c-4.427,0-8.017,3.589-8.017,8.017s3.589,8.017,8.017,8.017h8.247    l-14.68,146.808c-0.466,4.664-4.352,8.181-9.041,8.181h-37.454c-4.688,0-8.575-3.518-9.041-8.181l-14.681-146.808h42.45    c4.427,0,8.017-3.589,8.017-8.017s-3.589-8.017-8.017-8.017h-61.655c-4.636,0-8.518-3.474-9.03-8.082l-14.423-129.805h170.212    L326.683,316.862z M344.632,171.023H235.775c-3.907-8.121-5.962-17.103-5.962-26.188c0-33.3,27.092-60.393,60.393-60.393    s60.391,27.092,60.391,60.393C350.597,153.933,348.542,162.898,344.632,171.023z"/>
+                  </g>
+                </g>
+                <g>
+                  <g>
+                    <path d="M270.219,147.718l-8.551-8.551c-3.131-3.131-8.207-3.131-11.337,0c-3.131,3.131-3.131,8.207,0,11.337l8.551,8.551    c1.565,1.565,3.617,2.348,5.668,2.348s4.103-0.782,5.668-2.348C273.35,155.924,273.35,150.848,270.219,147.718z"/>
+                  </g>
+                </g>
+                <g>
+                  <g>
+                    <path d="M278.771,104.962c-3.13-3.131-8.207-3.131-11.337,0l-8.551,8.551c-3.131,3.131-3.131,8.207,0,11.337    c1.565,1.565,3.617,2.348,5.668,2.348s4.104-0.782,5.668-2.348l8.551-8.551C281.901,113.168,281.901,108.092,278.771,104.962z"/>
+                  </g>
+                </g>
+                <g>
+                  <g>
+                    <path d="M330.078,139.167c-3.131-3.131-8.207-3.131-11.337,0l-8.551,8.551c-3.131,3.131-3.131,8.207,0,11.337    c1.565,1.565,3.617,2.348,5.668,2.348s4.103-0.782,5.668-2.348l8.551-8.551C333.208,147.373,333.208,142.296,330.078,139.167z"/>
+                  </g>
+                </g>
+                <g>
+                  <g>
+                    <path d="M321.526,113.513l-8.551-8.551c-3.131-3.131-8.207-3.131-11.337,0c-3.131,3.131-3.131,8.207,0,11.337l8.551,8.551    c1.565,1.565,3.617,2.348,5.668,2.348s4.103-0.782,5.668-2.348C324.657,121.719,324.657,116.643,321.526,113.513z"/>
+                  </g>
+                </g>
+                <g>
+                  <g>
+                    <path d="M290.29,128.267h-0.085c-4.427,0-7.974,3.589-7.974,8.017s3.632,8.017,8.059,8.017c4.427,0,8.017-3.589,8.017-8.017    S294.717,128.267,290.29,128.267z"/>
+                  </g>
+                </g>
+                <g>
+                  <g>
+                    <path d="M315.858,205.228h-17.104c-4.427,0-8.017,3.589-8.017,8.017s3.589,8.017,8.017,8.017h17.104    c4.427,0,8.017-3.589,8.017-8.017S320.285,205.228,315.858,205.228z"/>
+                  </g>
+                </g>
+                <g>
+                  <g>
+                    <path d="M264.55,205.228h-68.408c-4.427,0-8.017,3.589-8.017,8.017s3.589,8.017,8.017,8.017h68.408    c4.427,0,8.017-3.589,8.017-8.017S268.977,205.228,264.55,205.228z"/>
+                  </g>
+                </g>
+                </svg>
+            </div>
+            <div class="card-row">
+              <h4 class="card-title">Spiced Cold Brew</h4>
+              <span class="card-price">$6.00</span>
+            </div>
+            <p class="card-desc">Slow-steeped for 18 hours, infused with Madagascar vanilla and a hint of cinnamon. Served over large ice.</p>
+          </div>
+        </div>
+
+        <!-- view more -->
+        
+        <div class="obra-cta-frame">
+          <button type="button" class="obra-cta">
+            <span class="obra-cta__label">View Full Menu</span>
+            <span class="obra-cta__arrow" aria-hidden="true">→</span>
+          </button>
+        </div>
+        
+      </section>
+
+      <!-- gallery section -->
+
+      <section class="Gallery" id="Gallery">
+        <div class="gallery-text-box">
+          <span class="gallery-title">The Space</span>
+          <p class="gallery-subtitle">Designed for lingering, conversation and quiet contemplation.</p>
+        </div>
+
+        <div class="gallery-imgs">
+          <img src="./imgs/gladys-arivia-qJs4Gp2RRAI-unsplash.jpg" alt="" class="images" >
+          <img src="./imgs/jon-tyson-pEGyLHAPfVw-unsplash.jpg" alt="" class="images">
+          <img src="./imgs/jayden-sim-pQmlo0juG50-unsplash.jpg" alt="" class="images">
+        </div>
+      </section>
+
+      <!-- Form Area section -->
+
+      <section class="form-box" id="Contacts">
+        <div class="form-left">
+          <div class="form-text-area">
+            <span class="form-title">Visit Us</span>
+            <p class="form-text">Whether you're grabbing a quick morning brew or settling in for an afternoon of work, we have a spot waiting for you.</p>
+          </div>
+      
+          <div class="details">
+            <div class="about-details">
+              <div class="detail-header">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25px" height="25px" viewBox="0 0 24 24" fill="none" class="detail-svg">
+                  <path d="M12 21C15.5 17.4 19 14.1764 19 10.2C19 6.22355 15.866 3 12 3C8.13401 3 5 6.22355 5 10.2C5 14.1764 8.5 17.4 12 21Z" stroke="#c87941" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M12 12C13.1046 12 14 11.1046 14 10C14 8.89543 13.1046 8 12 8C10.8954 8 10 8.89543 10 10C10 11.1046 10.8954 12 12 12Z" stroke="#c87941" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span class="details-title">Location</span>
+              </div>
+              <p class="detail-description">124 Artisan Way, Suite B<br>Design District, CA 90210</p>
+            </div>
+      
+            <div class="about-details">
+              <div class="detail-header">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25px" height="25px" viewBox="0 0 24 24" fill="none" class="detail-svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 4C7.58172 4 4 7.58172 4 12C4 16.4183 7.58172 20 12 20C16.4183 20 20 16.4183 20 12C20 7.58172 16.4183 4 12 4ZM2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12ZM11.8284 6.75736C12.3807 6.75736 12.8284 7.20507 12.8284 7.75736V12.7245L16.3553 14.0653C16.8716 14.2615 17.131 14.8391 16.9347 15.3553C16.7385 15.8716 16.1609 16.131 15.6447 15.9347L11.4731 14.349C11.085 14.2014 10.8284 13.8294 10.8284 13.4142V7.75736C10.8284 7.20507 11.2761 6.75736 11.8284 6.75736Z" fill="#c87941"/>
+                </svg>
+                <span class="details-title">Hours</span>
+              </div>
+              <p class="detail-description">Mon - Fri: 6:30 AM - 5:00 PM<br>Sat - Sun: 7:00 AM - 6:00 PM</p>
+            </div>
+      
+            <div class="about-details">
+              <div class="detail-header">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25px" height="25px" viewBox="0 0 24 24" fill="none" class="detail-svg">
+                  <path d="M4 18L9 12M20 18L15 12M3 8L10.225 12.8166C10.8665 13.2443 11.1872 13.4582 11.5339 13.5412C11.8403 13.6147 12.1597 13.6147 12.4661 13.5412C12.8128 13.4582 13.1335 13.2443 13.775 12.8166L21 8M6.2 19H17.8C18.9201 19 19.4802 19 19.908 18.782C20.2843 18.5903 20.5903 18.2843 20.782 17.908C21 17.4802 21 16.9201 21 15.8V8.2C21 7.0799 21 6.51984 20.782 6.09202C20.5903 5.71569 20.2843 5.40973 19.908 5.21799C19.4802 5 18.9201 5 17.8 5H6.2C5.0799 5 4.51984 5 4.09202 5.21799C3.71569 5.40973 3.40973 5.71569 3.21799 6.09202C3 6.51984 3 7.07989 3 8.2V15.8C3 16.9201 3 17.4802 3.21799 17.908C3.40973 18.2843 3.71569 18.5903 4.09202 18.782C4.51984 19 5.07989 19 6.2 19Z" stroke="#c87941" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span class="details-title">Inquiries</span>
+              </div>
+              <p class="detail-description">hello@brewandco.com</p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="form-right">
+          <h3 class="form-right-title">Send a Message</h3>
+          <div class="form-group">
+            <label class="form-label">Name</label>
+            <input type="text" class="form-input" placeholder="Your name">
+          </div>
+          <div class="form-group">
+            <label class="form-label">Email</label>
+            <input type="email" class="form-input" placeholder="your@email.com">
+          </div>
+          <div class="form-group">
+            <label class="form-label">Message</label>
+            <textarea class="form-input form-textarea" placeholder="How can we help?"></textarea>
+          </div>
+          <button class="form-submit">Send Message</button>
+        </div>
+      </section>
+
+      <!-- footer section -->
+      
+      <footer class="coffee-footer">
+          <div class="footer-logo">
+            <img src="./imgs/hot-drink.png" alt="">
+            <a href="#"><span class="footer-logo-text">Brew & Co</span></a>
+          </div>
+
+          <div class="some-links">
+            <a href="" class="footer-links">Privacy Policy</a>
+            <a href="" class="footer-links">Terms of Service</a>
+            <a href="" class="footer-links">Sustainability</a>
+            <a href="" class="footer-links">Careers</a>
+          </div>
+
+          <div class="copyright">
+            <p class="copyright-text">
+              &copy; 2024 Brew & Co. All rights reserved. 
+              Sun-baked simplicity in every cup.
+            </p>
+          </div>
+      </footer>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
